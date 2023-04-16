@@ -1,35 +1,24 @@
-![apnicareer-website-cover](https://github.com/akhil-s-kumar/apnicareer-webapp/blob/master/Screenshots/main-screen.jpg?raw=true)
+![BetaminC-website-cover](https://github.com/BetaminC/BetaminC/blob/main/screenshots/frontend.png?raw=true)
 
-# Apni Career Webapp
-
-<p align="left">
-    <a href="https://github.com/akhil-s-kumar/apnicareer-webapp/issues" alt="Issues">
-        <img src="https://img.shields.io/github/issues/akhil-s-kumar/apnicareer-webapp" /></a>
-    <a href="https://github.com/akhil-s-kumar/apnicareer-webapp/pulls" alt="Pull Requests">
-        <img src="https://img.shields.io/github/issues-pr/akhil-s-kumar/apnicareer-webapp" /></a>
-    <a href="https://github.com/akhil-s-kumar/apnicareer-webapp/network/members" alt="Forks">
-        <img src="https://img.shields.io/github/forks/akhil-s-kumar/apnicareer-webapp" /></a>
-    <a href="https://github.com/akhil-s-kumar/apnicareer-webapp/stargazers" alt="Stars">
-        <img src="https://img.shields.io/github/stars/akhil-s-kumar/apnicareer-webapp" /></a>
-</p>
+# BetaminC Webapp
 
 ## 💽 Installation Instructions
 
 If you want to work with this project make sure to follow the steps below!
 
-1. Make sure to install [Node](https://nodejs.org/en/)
+1. Make sure to install [Python](https://www.python.org/)
 2. Create a project folder
 
 ```bash
-$ mkdir apnicareer-Website
-$ cd apnicareer-Website
+$ mkdir BetaminC
+$ cd BetaminC
 ```
 
 3. Clone the repository
 
 ```bash
-$ git clone https://github.com/akhil-s-kumar/apnicareer-webapp.git
-$ cd apnicareer-webapp
+$ git clone https://github.com/BetaminC/BetaminC.git
+$ cd BetaminC
 ```
 
 4. Open in VS Code
@@ -38,20 +27,26 @@ $ cd apnicareer-webapp
 code .
 ```
 
-## 🚀 Quick start
-
-1.  **Run apnicareer site.**
+5. Install requirements.txt
 
 ```bash
-npm start
+pip install -r requirements.txt
 ```
 
-Your site is now running at [localhost:3000](http://localhost:3000)
+## 🚀 Quick start
+
+1.  **Run BetaminC site.**
+
+```bash
+app.py
+```
+
+Your site is now running at [localhost 127.0.0.1:5000](http://127.0.0.1:5000/)
 
 
 ## ✨ How you can contribute to this project?
 
 1. Fork this project to your GitHub account
 2. Connect the cloned project folder to your forked GitHub repository.
-3. Find an [issue or feature](https://github.com/akhil-s-kumar/apnicareer-webapp/issues) and work on it.
+3. Find an [issue or feature](https://github.com/BetaminC/BetaminC/issues) and work on it.
 4. Make a pull request.
