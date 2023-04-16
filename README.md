@@ -2,6 +2,9 @@
 
 # BetaminC Webapp
 
+## Link to Youtube Demo : https://youtu.be/wUvzlm7vA-A
+## Link to Web Application on Google Cloud : https://34.131.45.138:3003/
+
 ## 💽 Installation Instructions
 
 If you want to work with this project make sure to follow the steps below!
