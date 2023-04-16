@@ -31,7 +31,7 @@ model = LinearRegression()
 model = model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
-pickle.dump(model, open('teslaModel.pkl', 'wb'))
+pickle.dump(model, open('googleModel.pkl', 'wb'))
 
 y_preds = pd.DataFrame({'actual': y_test.squeeze(), 'predicted': y_pred.squeeze()})
 print(y_preds)

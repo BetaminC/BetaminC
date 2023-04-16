@@ -48,12 +48,13 @@
         </div>
       </div>
       <div class="row mt-2 mb-3">
-        <form class="row">
+        <form class="row" action="{{url_for('predict')}}" method="post">
           <div class="col-auto">
             <input
               type="text"
               class="form-control"
               id="open"
+              name="open_price"
               placeholder="Open"
             />
           </div>
@@ -62,6 +63,7 @@
               type="text"
               class="form-control"
               id="high"
+              name="highest_price"
               placeholder="High"
             />
           </div>
@@ -70,6 +72,7 @@
               type="text"
               class="form-control"
               id="low"
+              name="lowest_price"
               placeholder="Low"
             />
           </div>
@@ -78,6 +81,7 @@
               type="text"
               class="form-control"
               id="volume"
+              name="volume"
               placeholder="Volume"
             />
           </div>
@@ -89,7 +93,7 @@
       <div class="row mt-3">
         <div class="col-lg-6">
           <p>Tomorrows prediction</p>
-          <h2 class="text-success">$110.32</h2>
+          <h2 class="text-success">{{prediction_text}}</h2>
         </div>
         <div class="col-lg-6">
           <p>Previous day overview</p>
