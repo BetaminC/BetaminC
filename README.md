@@ -1,9 +1,10 @@
+## Link to Youtube Demo : https://youtu.be/wUvzlm7vA-A
+## Link to Web Application on Google Cloud : https://34.131.45.138:3003/
+
 ![BetaminC-website-cover](https://github.com/BetaminC/BetaminC/blob/main/screenshots/frontend.png?raw=true)
 
 # BetaminC Webapp
 
-## Link to Youtube Demo : https://youtu.be/wUvzlm7vA-A
-## Link to Web Application on Google Cloud : https://34.131.45.138:3003/
 
 ## 💽 Installation Instructions
 
